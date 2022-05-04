@@ -3,11 +3,11 @@ Set objFSO = CreateObject("Scripting.FileSystemObject")
 Set objFile = objFSO.OpenTextFile(arg, 1)
 
 ' Basic variables
-Dim BUF(29999)
+Dim BUF(29999)          ' Main memory
 Dim BUF_SZ, PTR, DEBUG
-BUF_SZ = 30000
-PTR = 0
-DEBUG = False
+BUF_SZ = 30000          ' Size of the memory
+PTR = 0                 ' Current cell of the pointer
+DEBUG = False           ' If debug logging is enabled
 
 ' AST accumulator
 ReDim statements(-1)

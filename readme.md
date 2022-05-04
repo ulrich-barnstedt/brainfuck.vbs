@@ -16,4 +16,6 @@ cscript bf.vbs <source file>
 cscript bf.vbs test.bf # Run the included "Hello World!"
 ```
 
-Enable debug on Line 10 for more info during execution.
+### Modifying
+
+See Lines 6 - 10 for config variables such as buffer size and debug logging.
