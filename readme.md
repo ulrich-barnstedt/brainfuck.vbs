@@ -1,3 +1,6 @@
+# **NOTE: This repo has been archived. See [brainfuck-master](https://github.com/ulrich-barnstedt/brainfuck-master)**
+
+
 # Brainfuck.vbs
 
 A brainfuck interpreter, in 175 lines of Visual Basic Script.  
